@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body {
+  font-family: futura;
+}
+
+h2  {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+select {
+  margin-left: 10px;
+}
+
+label {
+  margin-left: 15px;
+}
+
+input {
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: #f7f7f7
+}
+
+.imageForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imageDisplay {
+  margin-top: 30px;
+}
+
+.image {
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #50C7EB;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: #3AEB7A;
+}
